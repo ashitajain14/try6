@@ -1,0 +1,17 @@
+[
+    { "make": "Toyota", "model": "Celica", "price": 35000 },
+    { "make": "Ford", "model": "Mondeo", "price": 32000 },
+    { "make": "Porsche", "model": "Boxter", "price": 72000 },
+    { "make": "Audi", "model": "Mondeo", "price": 233000 },
+    { "make": "BMW", "model": "Mondeo", "price": 132000 },
+    { "make": "MG", "model": "Mondeo", "price": 82000 },
+    { "make": "Kia", "model": "Mondeo", "price": 92000 },
+    { "make": "Maruti", "model": "Mondeo", "price": 12000 },
+    { "make": "Suzuki", "model": "Mondeo", "price": 22000 },
+    { "make": "Ford", "model": "Mondeo", "price": 72000 },
+    { "make": "Audi", "model": "Mondeo", "price": 332000 },
+    { "make": "BMW", "model": "Mondeo", "price": 532000 },
+    { "make": "Ferrari", "model": "Mondeo", "price": 932000 },
+    { "make": "Toyota", "model": "Mondeo", "price": 42000 },
+    { "make": "Kia", "model": "Mondeo", "price": 62000 },
+]

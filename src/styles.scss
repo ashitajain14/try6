@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin.scss";
+
+.ag-theme-alpine {
+    @include ag-theme-alpine();
+}
+
+  body{
+    background-color:#f4f4f4;
+    color:#555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:1.6em;
+    margin:0;
+  }
+
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  .container2{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+  #main-header img{
+    float: right;
+    background: rgb(44, 29, 52);
+  }
+
+  #main-header{
+    background-color: rgb(44, 29, 52);
+    color:#fff;
+  }
+  #main-header h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+  #navbar{
+    background-color:#333;
+    color:#fff;
+  }
+
+  #navbar ul{
+    padding:0;
+    list-style: none;
+  }
+
+  #navbar li{
+    display:inline;
+  }
+
+  #navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+  }
+
+
+
+  #showcase h1{
+    color:#fff;
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top:30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(44, 29, 52);
+  }
+
+  #main{
+    float:left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+  }
+
+  #sidebar{
+    float:right;
+    width:30%;
+    background: #333;
+    color:#fff;
+    padding:10px;
+    box-sizing: border-box;
+  }
+
+  #main-footer{
+    background: #333;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    margin-top:40px;
+  }
+
+  @media(max-width:600px){
+    #main{
+      width:100%;
+      float:none;
+    }
+
+    #sidebar{
+      width:100%;
+      float:none;
+    }
+  }
